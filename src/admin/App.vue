@@ -1,17 +1,20 @@
 <template>
-  <div id="vue-backend-app">
-    <h1>Backend App</h1>
+  <v-app id="vue-backend-app">
+    <v-card>
+      <v-card-text>
+        <h1>Backend App</h1>
 
-    <router-view />
-  </div>
+        <router-view />
+      </v-card-text>
+    </v-card>
+  </v-app>
 </template>
 
 <script>
 export default {
-  name: 'App'
-}
+  name: "App"
+};
 </script>
 
 <style>
-
 </style>

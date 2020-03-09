@@ -47,6 +47,9 @@ class Admin {
      */
     public function enqueue_scripts() {
         wp_enqueue_style( 'baseplugin-admin' );
+        wp_enqueue_style( 'load-fa', 'https://use.fontawesome.com/releases/v5.0.13/css/all.css' );
+        wp_enqueue_style( 'font-roboto', 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900' );
+        
         wp_enqueue_script( 'baseplugin-admin' );
         	// add inline script
         wp_localize_script(
