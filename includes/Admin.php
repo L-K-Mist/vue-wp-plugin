@@ -48,6 +48,14 @@ class Admin {
     public function enqueue_scripts() {
         wp_enqueue_style( 'baseplugin-admin' );
         wp_enqueue_script( 'baseplugin-admin' );
+        	// add inline script
+        wp_localize_script(
+            'baseplugin-admin',
+            'admin',
+            array(
+                'root'  => esc_url_raw( rest_url() )
+            )
+        );
     }
 
     /**

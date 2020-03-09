@@ -263,7 +263,6 @@ final class Base_Plugin {
                 return ( ! is_admin() || defined( 'DOING_AJAX' ) ) && ! defined( 'DOING_CRON' );
         }
     }
-
 } // Base_Plugin
 
 $baseplugin = Base_Plugin::init();

@@ -1,0 +1,7 @@
+# @baseURL=https://docsforbiz:45wwr345ghr@docs-for-biz.dev.welink.net.za
+@baseURL=http://localhost/wordpress/wp-json/
+
+Get {{baseURL}}wp/v2/posts/1
+Content-Type: application/json
+
+###

@@ -4,17 +4,16 @@ A WordPress [Vue.js](https://vuejs.org/) starter plugin with required toolbelts 
 
 ## 📦 What it ships with?
 
- - Pre-configured webpack config
-   - Babel loader, Vue loader, CSS and LESS loader
-   - Separate `vendor.js` with all vendor scripts
-   - Uglify JS for production
-   - Separate `frontend.js` and `admin.js`
-   - Extracted CSS/LESS to separate `frontend.css` and `admin.css` files.
-   - Auto reloading with Browser with **Browsersync** *([config](config.json))*
- - [Vue](https://vuejs.org/) and [Vue Router](https://router.vuejs.org/en/)
- - Frontend (shortcode) and Backend starter app
- - Modern PHP codebase with [namespace](http://php.net/manual/en/language.namespaces.php) support
-
+- Pre-configured webpack config
+  - Babel loader, Vue loader, CSS and LESS loader
+  - Separate `vendor.js` with all vendor scripts
+  - Uglify JS for production
+  - Separate `frontend.js` and `admin.js`
+  - Extracted CSS/LESS to separate `frontend.css` and `admin.css` files.
+  - Auto reloading with Browser with **Browsersync** _([config](config.json))_
+- [Vue](https://vuejs.org/) and [Vue Router](https://router.vuejs.org/en/)
+- Frontend (shortcode) and Backend starter app
+- Modern PHP codebase with [namespace](http://php.net/manual/en/language.namespaces.php) support
 
 ## 🚚 Running
 
@@ -36,10 +35,10 @@ A WordPress [Vue.js](https://vuejs.org/) starter plugin with required toolbelts 
 
 ## ⛑ Extra Goodies
 
- 1. [Vue List Table Component](https://github.com/tareq1988/vue-wp-list-table-component) - Helps you to build WordPress list tables easily.
+1.  [Vue List Table Component](https://github.com/tareq1988/vue-wp-list-table-component) - Helps you to build WordPress list tables easily.
 
 ## About
 
 Made by [Tareq Hasan](https://github.com/tareq1988) from [weDevs](https://wedevs.com).
 
-*Found anything that can be improved? You are welcome to contribute.*
+_Found anything that can be improved? You are welcome to contribute._
